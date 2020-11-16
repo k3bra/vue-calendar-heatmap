@@ -59,9 +59,9 @@
 </template>
 
 <script>
-import { VTooltip } from 'v-tooltip'
+import {VTooltip} from 'v-tooltip'
 import Heatmap from './Heatmap'
-import { DAYS_IN_WEEK, DEFAULT_LOCALE, DEFAULT_RANGE_COLOR, DEFAULT_TOOLTIP_UNIT, SQUARE_SIZE } from './consts.js'
+import {DAYS_IN_WEEK, DEFAULT_LOCALE, DEFAULT_RANGE_COLOR, DEFAULT_TOOLTIP_UNIT, SQUARE_SIZE} from './consts.js'
 
 VTooltip.enabled = window.innerWidth > 768
 
